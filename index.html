@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+	<section id="ergodic">
+		<button id="preOrder" type="button">先序遍历</button>
+		<button id="inOrder" type="button">中序遍历</button>
+		<button id="postOrder" type="button">后序遍历</button>
+	</section>
+	<p id="result">遍历次序：</p>
+
+	<section id="query">
+		<label>请输入下列框中单词（按先序遍历顺序来查找）：<input type="text"></label>
+		<button id="queryBtn" type="button">查询</button>
+	</section>
+
+	<div id="rootNode">
+		<b>A</b>
+		<span>Super</span>
+		<div class="first" id="firstLeft">
+			<b>B</b>
+			<span>Car</span>
+			<div class="second" >
+				<b>D</b>
+				<span>Apple</span>
+				<div class="third">
+					<b>F</b>
+					<span>Pear</span>
+				</div>
+				<div class="third">
+					<b>P</b>
+					<span>Pig</span>
+				</div>
+				<div class="third">
+					<b>Q</b>
+			    <span>Cala</span>
+				</div>
+				<div class="third">
+					<b>L</b>
+			    <span>Soccer</span>
+				</div>
+			</div>
+			<div id="Phone">
+				<b>8</b>
+				<span>Phone</span>
+			</div>
+			<div class="second">
+				<b>E</b>
+				<span>HFUT</span>
+				<div class="third">
+					<b>H</b>
+					<span>Back</span>
+				</div>
+				<div class="third">
+					<b>I</b>
+					<span>School</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="first" id="firstMid">
+			<b>C</b>
+			<span>Note</span>
+			<div class="second" >
+				<b>J</b>
+				<span>Human</span>
+				<div class="third">
+					<b>L</b>
+					<span>Code</span>
+				</div>
+				<div class="third">
+					<b>Z</b>
+					<span>Operate</span>
+				</div>
+				<div class="third">
+					<b>1</b>
+					<span>Man</span>
+				</div>
+			</div>
+			<div class="second">
+				<b>K</b>
+				<span>Program</span>
+				<div class="third">
+					<b>N</b>
+				 <span>Element</span>
+					<div class="fourth">
+						<b>4</b>
+						<span>Cat</span>
+					</div>
+				</div>
+				<div class="third">
+					<b>O</b>
+					<span>Glass</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="firstRight">
+			<b>9</b>
+			<span>Fish</span>
+		</div>	
+	</div>
+	<script src="js/index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,121 @@
+section#ergodic {
+	width: 300px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+section#query {
+	height: 30px;
+	width: 650px;
+	margin: 10px auto;
+}
+
+p#result {
+	margin-left: 350px;
+}
+
+button {
+	border-radius: 4px;
+	height: 30px;
+	width: 70px;
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+	color: #fff;
+	margin-left: 20px;
+}
+
+div {
+	border: 1px solid #000;
+	position: relative;
+	background-color: #fff;
+}
+
+div#rootNode {
+	width: 1150px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+div#firstLeft {
+	width: 520px;
+	height: 240px;
+	margin: 25px 15px 5px;
+	float: left;
+}
+
+div#firstMid {
+	width: 450px;
+	height: 240px;
+	margin: 25px 15px 5px;
+	float: left;
+}
+
+div#firstRight {
+	width: 80px;
+	height: 240px;
+	float: left;
+	margin-top: 25px;
+}
+
+div.second {
+	width: 200px;
+	height: 180px;
+	float: left;
+	margin: 20px 0 0 15px;
+}
+
+div#Phone {
+	width: 60px;
+	height: 180px;
+	float: left;
+	margin: 20px 0 0 15px;
+}
+
+div.third {
+	width: 35px;
+	height: 100px;
+	float: left;
+	margin: 40px 0 0 10px;
+}
+
+div#firstMid div.third {
+	width: 50px;
+}
+
+div.fourth {
+	width: 30px;
+	height: 60px;
+	float: left;
+	margin: 25px 0 0 5px;
+}
+
+
+b {
+	position: absolute;
+	left: 50%;
+	top: 3px;
+}
+
+span {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-size: 12px;
+}
+
+div.ergodicState {
+	background-color: #5cb85c;
+	border-color: #5cb85c; 
+}
+
+.unergodicState {
+	background-color: #aaa;
+	border-color: #aaa;
+	color: #fff !important;
+	cursor: auto;
+}
+
+div.findTarget {
+	background-color: #39f;
+	border-color: #39f;
+}
